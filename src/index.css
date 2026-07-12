@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-natural-bg: #F5F5F0;
+  --color-natural-primary: #5A5A40;
+  --color-natural-sidebar: #EBEBE0;
+  --color-natural-border: #D6D6C2;
+  --color-natural-border-alt: #E6E6D6;
+  --color-natural-secondary: #8A8A70;
+  --color-natural-heading: #2A2A1A;
+  --color-natural-accent: #F27D26;
+  --color-natural-accent-hover: #D76513;
+
+  /* Redefine slate to Natural Tones to apply the theme app-wide */
+  --color-slate-50: #F5F5F0;
+  --color-slate-100: #EBEBE0;
+  --color-slate-200: #D6D6C2;
+  --color-slate-300: #C2C2AA;
+  --color-slate-400: #8A8A70;
+  --color-slate-500: #8A8A70;
+  --color-slate-600: #5A5A40;
+  --color-slate-700: #5A5A40;
+  --color-slate-800: #2A2A1A;
+  --color-slate-900: #1C1C10;
+
+  /* Redefine blue (primary actions) to Natural Tone primary (#5A5A40) */
+  --color-blue-50: #F5F5EE;
+  --color-blue-100: #E2E2D0;
+  --color-blue-200: #D0D0B8;
+  --color-blue-300: #A8A888;
+  --color-blue-400: #808060;
+  --color-blue-500: #5A5A40;
+  --color-blue-600: #5A5A40;
+  --color-blue-700: #2A2A1A;
+
+  /* Redefine indigo to Natural Tone Accent (#F27D26) */
+  --color-indigo-50: #FFF5EE;
+  --color-indigo-100: #FFE6D6;
+  --color-indigo-200: #FFD4B8;
+  --color-indigo-500: #F27D26;
+  --color-indigo-600: #F27D26;
+  --color-indigo-700: #D76513;
+
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-natural-bg);
+  color: var(--color-natural-heading);
+}
+
+h1, h2, h3, h4, .font-serif-heading {
+  font-family: var(--font-sans);
+}
